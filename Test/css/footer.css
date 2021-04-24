@@ -1,0 +1,29 @@
+.footer {
+	width: 90%;
+	max-width: 1140px;
+	margin: auto;
+	background-color: #ffffff;
+	border: solid 15px white;
+	margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.string {
+	display: flex;
+    justify-content: center;
+}
+
+.string-item {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rights {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}

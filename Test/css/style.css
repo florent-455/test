@@ -1,0 +1,254 @@
+.container {
+	width: 90%;
+	max-width: 1140px;
+	margin: auto;
+	background-color: #ffffff;
+	border: solid 15px white;
+	display: flex;
+  margin-top: 30px;
+}
+
+.news {
+    margin: 0 auto;
+}
+
+.products {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+      display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(197, 197, 197);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #000000cc;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .items {
+	width: 90%;
+	max-width: 1140px;
+	margin: auto;
+	margin-top: 50px;
+  }
+
+  .related-items {
+	margin-top: 20px;
+	display: flex;
+	align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+  
+  .related-item {
+	  height: 370px;
+	  width: 260px;
+	  background-color: white;
+	  border-radius: 5px 5px 10px 10px;
+    margin-bottom: 40px;
+  }
+
+  .item-info {
+	margin: 40px;
+
+  }
+
+  .item-info-text {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	margin-top: 20px;
+  }
+
+  .item-image {
+	width: 160px;
+	height: 160px;
+	margin: 10px;
+  object-fit:contain;
+  }
+
+  .info-text p{
+	font-size: 12px;
+	margin: 0;
+  }
+
+  .info-text h3{
+	margin: 0;
+	margin-bottom: 8px;
+  }
+
+  .item-price h1{
+	margin: 0;
+  }
+
+  .color-selection-item {
+	display: flex;
+	justify-content: space-between;
+	width: 50px;
+	margin-top: 10px;
+  }
+
+ 
+  .green {
+	background-color: green;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+  }
+  .blue {
+	background-color: blue;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+  }
+  .pink {
+	background-color: pink;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+  }
+  .brown {
+	background-color: brown;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+  }
+  .gray {
+	background-color: gray;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+  }
+  .yellow {
+	background-color: yellow;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+  }
+
+  .flag-new {
+	background-color: #5be0b8;
+	width: 60px;
+	height: 40px;
+	position: relative;
+	color: white;
+	float: right;
+	margin-right: 20px;
+  }
+
+  .flag-new::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 10px solid white;
+  }
+
+  .flag-new h3 {
+	margin: 0;
+	text-align: center;
+	padding-top: 5px;
+  }
+
+  .flag-sale {
+	background-color: #d86464;
+	width: 60px;
+	height: 40px;
+	position: relative;
+	color: white;
+	float: right;
+	margin-right: 20px;
+  }
+
+  .flag-sale::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 10px solid white;
+  }
+
+  .flag-sale h3 {
+	margin: 0;
+	text-align: center;
+	padding-top: 5px;
+  }
+
+  .item-price-normal {
+	  text-align: right;
+	  font-size: 12px;
+	  color: #bdbdbd;
+  }
