@@ -20,8 +20,8 @@
                 </div>
             </div>
             
-            <div class="dropdown">
-                <select name="one" class="dropdown-select" onchange="window.location.href=this.options[this.selectedIndex].value">
+            <div class="header-dropdown">
+                <select name="one" class="header-dropdown-select" onchange="window.location.href=this.options[this.selectedIndex].value">
                     <option value="index.php">RU</option>
                     <option value="index-en.php">EN</option>
                 </select>
